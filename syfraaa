@@ -1,0 +1,21 @@
+// Import library 
+import React from'react';
+import {Text, View} from'react-native';
+
+// Membuat dan mengimport class
+export default class App extends React.Component{
+  render (){
+    return(
+      <View style={{
+        backgroundColor:"gray", 
+        height: 150,
+        paddingTop: 35,
+        paddingLeft: 15,
+        }}>
+      <Text>Syafira Fitriani</Text>
+      <Text>15 Tahun</Text>
+      <Text>SMKN 1 BLADO</Text>
+      </View>
+    )
+  }
+}
